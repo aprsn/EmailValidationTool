@@ -3,8 +3,12 @@ Validate E-mails according to their MX records
 
 This script checks the MX records and updates the E-Mail list. It does not change the unsubscribed users, it only changes the subscribed users. 
 
+
+
+
 ### How to run
 
+`pip install dnspython`
 `python bot.py`
 
 
